@@ -21,8 +21,11 @@ namespace WcfBinaryRestful.Contracts
         void ReceiveImg(System.IO.Stream stream);
 
         [OperationContract]
-        void ReceiveImg(string id, System.IO.Stream stream);
+        void ReceiveImage(string id, System.IO.Stream stream);
 
+
+        [OperationContract]
+        System.IO.Stream ReadImage(string filename);
     }
 
 }
