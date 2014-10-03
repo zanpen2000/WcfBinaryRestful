@@ -37,5 +37,16 @@ namespace WcfBinaryRestful.Service
             Image bmp = Bitmap.FromStream(stream);
             bmp.Save(imgFilePath);
         }
+
+
+        public void ReceiveImg(string id, System.IO.Stream stream)
+        {
+            Debug.WriteLine(WebOperationContext.Current.IncomingRequest.ContentType);
+            System.Threading.Thread.Sleep(2000);
+            string runDir = "d:\\";
+            string imgFilePath = System.IO.Path.Combine(runDir, id+".jpg");
+            Image bmp = Bitmap.FromStream(stream);
+            bmp.Save(imgFilePath);
+        }
     }
 }
