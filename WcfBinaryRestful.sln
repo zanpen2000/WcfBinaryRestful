@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBinaryRestful.Contracts", "WcfBinaryRestful.Contracts\WcfBinaryRestful.Contracts.csproj", "{9F2D83D0-E3D0-4DB7-AF6F-98130435DDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBinaryRestful.Service", "WcfBinaryRestful.Service\WcfBinaryRestful.Service.csproj", "{2C7A531B-4DFC-4041-9384-C76438B6B8E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBinaryRestful.Host", "WcfBinaryRestful.Host\WcfBinaryRestful.Host.csproj", "{B4716AC9-5676-4D52-A594-4E08D68ADA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBinaryRestful.Client", "WcfBinaryRestful.Client\WcfBinaryRestful.Client.csproj", "{0E8087F7-D0FD-40F4-AA9E-CDD407C90DCE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonClientDemo", "PythonClientDemo\PythonClientDemo.pyproj", "{63E886D5-A74B-4A73-83E6-06CB237C2F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F2D83D0-E3D0-4DB7-AF6F-98130435DDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2D83D0-E3D0-4DB7-AF6F-98130435DDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2D83D0-E3D0-4DB7-AF6F-98130435DDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2D83D0-E3D0-4DB7-AF6F-98130435DDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7A531B-4DFC-4041-9384-C76438B6B8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7A531B-4DFC-4041-9384-C76438B6B8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7A531B-4DFC-4041-9384-C76438B6B8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7A531B-4DFC-4041-9384-C76438B6B8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4716AC9-5676-4D52-A594-4E08D68ADA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4716AC9-5676-4D52-A594-4E08D68ADA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4716AC9-5676-4D52-A594-4E08D68ADA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4716AC9-5676-4D52-A594-4E08D68ADA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8087F7-D0FD-40F4-AA9E-CDD407C90DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8087F7-D0FD-40F4-AA9E-CDD407C90DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8087F7-D0FD-40F4-AA9E-CDD407C90DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8087F7-D0FD-40F4-AA9E-CDD407C90DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E886D5-A74B-4A73-83E6-06CB237C2F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E886D5-A74B-4A73-83E6-06CB237C2F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E886D5-A74B-4A73-83E6-06CB237C2F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E886D5-A74B-4A73-83E6-06CB237C2F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
