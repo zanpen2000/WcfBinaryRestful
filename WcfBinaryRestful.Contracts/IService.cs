@@ -12,6 +12,9 @@ namespace WcfBinaryRestful.Contracts
     public interface IService
     {
         [OperationContract]
+        string Hello(string hi);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
